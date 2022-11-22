@@ -1,0 +1,89 @@
+.coursework {
+   height: 100vh;
+   width: 100vw;
+   margin-top: 8vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.coursework-box {
+   margin-top: 8vh;
+   height: 60%;
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+}
+
+.coursework-title-box {
+   display: flex;
+   justify-content: space-between;
+   height: 7vh;
+   align-items: center;
+}
+
+.coursework-num {
+   font-family: 'PoppinsSemiBold';
+   color: #CE3259;
+   font-size: 2vw;
+}
+
+.coursework-title-text {
+   font-family: 'PoppinsSemiBold';
+   color: #CCD7F6;
+   font-size: 2vw;
+}
+
+.coursework-line-box {
+   display: flex;
+   flex-direction: column;
+   width: 24vw;
+   height: 100%;
+}
+
+.coursework-line {
+   height: 50%;
+   border-bottom: 1px solid #75809B;
+   width: 100%;
+}
+
+.coursework-menu {
+   height: 5vh;
+   display: flex;
+   margin-top: 2vh;
+}
+
+.coursework-menu-button {
+   width: 100%;
+   font-family: 'PoppinsReg';
+   font-size: 1vw;
+   color: #75809B;
+   background-color: #0a192f;
+   border-style: none;
+   border-top: 3px solid #75809B;
+}
+
+.coursework-menu-button-clicked {
+   width: 100%;
+   font-family: 'PoppinsReg';
+   font-size: 1vw;
+   color: #CE3259;
+   background-color: #0a192f;
+   border-style: none;
+   border-top: 4px solid #CE3259;
+}
+
+.coursework-menu-button:hover {
+   color: #CE3259;
+   background-color: #0E2343;
+   cursor: pointer;
+}
+
+.coursework-menu-button-clicked:hover {
+   background-color: #0E2343;
+   cursor: pointer;
+}
+
+.coursework-page {
+   height: 35vh;
+}
