@@ -1,0 +1,22 @@
+.p4-L-overlay {
+   position: absolute;
+   width: 36vw;
+   height: 36vh;
+   right: 20vw;
+   top: 697vh;
+   background-color: rgba(206, 50, 89, .3);
+}
+
+.p4-L-overlay:hover {
+   background-color: transparent;
+}
+
+.p4-L-project-desc-box {
+   position: absolute;
+   width: 30vw;
+   height: 32vh;
+   left: 20.2vw;
+   top: 697vh;
+   padding-top: 2vh;
+   padding-bottom: 2vh;
+}

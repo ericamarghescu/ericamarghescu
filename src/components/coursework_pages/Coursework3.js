@@ -89,16 +89,16 @@ class Coursework3 extends React.Component {
                   </div>
             </div>
             <div className="coursework3-right">
-               {this.state.c1 ? (<p className="course-name">Introduction to Biometrics</p>) : (<div/>)}
-               {this.state.c1 ? (<p className="course-desc">Descriptive statistics, introduction to probability, sampling, confidence interval estimation, hypothesis testing, simple regression and correlation. Emphasis on simple applications of statistical techniques and interpretation of statistical results.</p>) : (<div/>)}
-               {this.state.c2 ? (<p className="course-name">Introduction to Computer Systems</p>) : (<div/>)}
-               {this.state.c2 ? (<p className="course-desc">Introduction to the interaction between user programs and the operating system/hardware. Major topics include C programming, introductory systems programming, and assembly language. Other concepts covered include UNIX, machine data representation, thread management, optimization, and virtual memory. Programming is done in the Linux Environment.</p>) : (<div/>)}
-               {this.state.c3 ? (<p className="course-name">Applied Cybersecurity II</p>) : (<div/>)}
-               {this.state.c3 ? (<p className="course-desc">Students will apply the skills learned in HACS 100 and 101 to practice cybersecurity research through team led projects employing honeypots, carrying that project through all stages - proposal, implementation, and analysis. Weekly lectures will supplement project work by addressing trends observed in honeypot attacks and protections needed, along with data collection and analysis tools, and other foundational cybersecurity concepts.</p>) : (<div/>)}
-               {this.state.c4 ? (<p className="course-name">Linear Algebra</p>) : (<div/>)}
-               {this.state.c4 ? (<p className="course-desc">Basic concepts of linear algebra: vector spaces, applications to line and plane geometry, linear equations and matrices, similar matrices, linear transformations, eigenvalues, determinants and quadratic forms.</p>) : (<div/>)}
-               {this.state.c5 ? (<p className="course-name">Applied Probability and Statistics</p>) : (<div/>)}
-               {this.state.c5 ? (<p className="course-desc">Random variables, standard distributions, moments, law of large numbers and central limit theorem. Sampling methods, estimation of parameters, testing of hypotheses.</p>) : (<div/>)}
+               {this.state.c1 ? (<p className="coursework3-course-name">Introduction to Biometrics</p>) : (<div/>)}
+               {this.state.c1 ? (<p className="coursework3-course-desc">Descriptive statistics, introduction to probability, sampling, confidence interval estimation, hypothesis testing, simple regression and correlation. Emphasis on simple applications of statistical techniques and interpretation of statistical results.</p>) : (<div/>)}
+               {this.state.c2 ? (<p className="coursework3-course-name">Introduction to Computer Systems</p>) : (<div/>)}
+               {this.state.c2 ? (<p className="coursework3-course-desc">Introduction to the interaction between user programs and the operating system/hardware. Major topics include C programming, introductory systems programming, and assembly language. Other concepts covered include UNIX, machine data representation, thread management, optimization, and virtual memory. Programming is done in the Linux Environment.</p>) : (<div/>)}
+               {this.state.c3 ? (<p className="coursework3-course-name">Applied Cybersecurity II</p>) : (<div/>)}
+               {this.state.c3 ? (<p className="coursework3-course-desc">Students will apply the skills learned in HACS 100 and 101 to practice cybersecurity research through team led projects employing honeypots, carrying that project through all stages - proposal, implementation, and analysis. Weekly lectures will supplement project work by addressing trends observed in honeypot attacks and protections needed, along with data collection and analysis tools, and other foundational cybersecurity concepts.</p>) : (<div/>)}
+               {this.state.c4 ? (<p className="coursework3-course-name">Linear Algebra</p>) : (<div/>)}
+               {this.state.c4 ? (<p className="coursework3-course-desc">Basic concepts of linear algebra: vector spaces, applications to line and plane geometry, linear equations and matrices, similar matrices, linear transformations, eigenvalues, determinants and quadratic forms.</p>) : (<div/>)}
+               {this.state.c5 ? (<p className="coursework3-course-name">Applied Probability and Statistics</p>) : (<div/>)}
+               {this.state.c5 ? (<p className="coursework3-course-desc">Random variables, standard distributions, moments, law of large numbers and central limit theorem. Sampling methods, estimation of parameters, testing of hypotheses.</p>) : (<div/>)}
             </div>
          </div>
        );

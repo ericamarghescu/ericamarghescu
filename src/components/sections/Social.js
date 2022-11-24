@@ -9,11 +9,21 @@ function Social() {
    return (
      <div className="socials">
          <div className="social-icons">
-            <GitHubIcon/>
-            <InstagramIcon/>
-            <TwitterIcon/>
-            <LinkedinIcon/>
-            <EmailIcon/>
+            <a href="https://github.com/ericamarghescu">
+               <GitHubIcon/>
+            </a>
+            <a href="https://www.instagram.com/erica.m">
+               <InstagramIcon/>
+            </a>
+            <a href="https://www.twitter.com/ericamarghescu">
+               <TwitterIcon/>
+            </a>
+            <a href="https://www.linkedin.com/in/ericamarghescu">
+               <LinkedinIcon/>
+            </a>
+            <a href="mailto: erica.marghescu@gmail.com">
+               <EmailIcon/>
+            </a>
          </div>
          <div className="social-line">
             <div className="line"/>

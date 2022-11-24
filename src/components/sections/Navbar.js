@@ -23,9 +23,9 @@ function Navbar({ showIcons }) {
             <div className="nav-right">
                <Link className="nav-button" style={showNav} to="About" smooth={true}>About</Link>
                <Link className="nav-button" style={showNav} to="Coursework" smooth={true}>Coursework</Link>
-               <p className="nav-button" style={showNav}>Experience</p>
-               <p className="nav-button" style={showNav}>Leadership</p>
-               <p className="nav-button" style={showNav}>Projects</p>
+               <Link className="nav-button" style={showNav} to="Experience" smooth={true}>Experience</Link>
+               <Link className="nav-button" style={showNav} to="Leadership" smooth={true}>Leadership</Link>
+               <Link className="nav-button" style={showNav} to="Projects" smooth={true}>Projects</Link>
                <p className="resume-button" style={showNav}>Resume</p>
                <img className="menu" src={menu} style={showIcon}/>
             </div>

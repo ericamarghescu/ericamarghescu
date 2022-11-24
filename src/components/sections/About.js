@@ -16,7 +16,7 @@ function About() {
                <div className="about-line"/>
             </div>
          </div>
-         <p className="about-text">Hi! My name is Erica Marghescu and I am a student at the University of Maryland passionate about Math, Computer Science, and problem solving. I have experience with front-end development, UI design, as well as back-end programming. I hope to use my skills to make a difference and love using technology to shape the world around me.</p>
+         <p className="about-text">Hi! My name is Erica Marghescu and I am a student at the University of Maryland passionate about math, computer science, and problem solving. I have experience with front-end development, UI design, as well as back-end programming. I hope to use my skills to make a difference and love using technology to shape the world around me.</p>
          <p className="about-text">Outside of academics, I have a variety of interests and hobbies I like to pursue, including web development, skiing, weightlifting, learning French, and teaching.</p>
          <p className="skills-title">Languages and Technologies</p>
          <div className="langs-box">

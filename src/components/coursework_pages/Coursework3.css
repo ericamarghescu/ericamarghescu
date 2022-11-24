@@ -73,7 +73,7 @@
 }
 
 
-.course-name {
+.coursework3-course-name {
    font-family: 'PoppinsSemiBold';
    color: #CCD7F6;
    margin-left: 2vw;
@@ -82,9 +82,9 @@
    margin-bottom: 0.5vh;
 }
 
-.course-desc {
+.coursework3-course-desc {
    font-family: 'PoppinsReg';
    color: #75809B;
    margin-left: 2vw;
-   font-size: .8vw;
+   font-size: .95vw;
 }

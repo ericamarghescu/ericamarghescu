@@ -1,0 +1,22 @@
+.p1-overlay {
+   position: absolute;
+   width: 36vw;
+   height: 35vh;
+   left: 20.2vw;
+   top: 562.3vh;
+   background-color: rgba(206, 50, 89, .3);
+}
+
+.p1-overlay:hover {
+   background-color: transparent;
+}
+
+.p1-project-desc-box {
+   position: absolute;
+   width: 30vw;
+   height: 32vh;
+   right: 20vw;
+   top: 562.3vh;
+   padding-top: 2vh;
+   padding-bottom: 2vh;
+}
