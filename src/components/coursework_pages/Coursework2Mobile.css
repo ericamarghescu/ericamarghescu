@@ -6,13 +6,12 @@
 }
 
 .coursework2-top-mobile {
-   width: 100%;
+   width: 88vw;
    height: 30%;
    display: flex;
    flex-direction: row;
-   justify-content: center;
+   justify-content: space-between;
    align-items: center;
-   gap: 1vw;
 }
 
 .coursework2-bottom-mobile {
@@ -28,7 +27,7 @@
 .coursework2-course-mobile {
    font-family: "PoppinsReg";
    color: #75809B;
-   font-size: 3.7vw;
+   font-size: 3vw;
    margin: 0;
    background-color: #0A192F;
    border-style: none;
@@ -38,7 +37,7 @@
 .coursework2-course-clicked-mobile {
    font-family: "PoppinsReg";
    color: #CE3259;
-   font-size: 3.7vw;
+   font-size: 3vw;
    margin: 0;
    background-color: #0A192F;
    border-style: none;

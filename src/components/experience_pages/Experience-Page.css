@@ -44,10 +44,10 @@
 
 .job-desc-box {
    width: 100%;
-   height: 26vh;
+   height: 27vh;
    display: flex;
    flex-direction: column;
-   justify-content: flex-start;
+   justify-content: space-between;
 }
 
 .job-bullet {

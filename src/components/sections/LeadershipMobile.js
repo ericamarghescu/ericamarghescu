@@ -43,6 +43,7 @@ class LeadershipMobile extends React.Component {
    render() {
       return (
          <div id="LeadershipMobile" className="leadership-mobile">
+            <div className="space"/>
            <div className="leadership-box-mobile">
               <div className="leadership-title-box-mobile">
                  <p className="leadership-num-mobile">04</p>

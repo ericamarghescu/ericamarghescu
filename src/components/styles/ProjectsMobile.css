@@ -1,14 +1,19 @@
 .projects-mobile {
-   height: 200vh;
+   height: 170vh;
    width: 100vw;
-   margin-top: 8vh;
    display: flex;
-   justify-content: center;
+   flex-direction: column;
+   justify-content: flex-start;
    align-items: center;
 }
 
+.space {
+   width: 100%;
+   height: 10vh;
+}
+
 .projects-box-mobile {
-   height: 80%;
+   height: 100vh;
    width: 88vw;
    margin-top: 0;
 }

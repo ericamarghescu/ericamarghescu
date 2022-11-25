@@ -1,13 +1,19 @@
 .leadership-mobile {
-   height: 100vh;
+   height: 108vh;
    width: 100vw;
    display: flex;
+   flex-direction: column;
    justify-content: center;
    align-items: center;
 }
 
+.space {
+   width: 100%;
+   height: 10vh;
+}
+
 .leadership-box-mobile {
-   height: 75%;
+   height: 100vh;
    width: 88vw;
    display: flex;
    flex-direction: column;
@@ -46,7 +52,7 @@
 }
 
 .leadership-menu-mobile {
-   height: 5vh;
+   height: 7vh;
    display: flex;
    margin-top: 1vh;
 }
@@ -54,7 +60,7 @@
 .leadership-menu-button-mobile {
    width: 100%;
    font-family: 'PoppinsReg';
-   font-size: 3vw;
+   font-size: 2.5vw;
    color: #75809B;
    background-color: #0a192f;
    border-style: none;
@@ -64,7 +70,7 @@
 .leadership-menu-button-clicked-mobile {
    width: 100%;
    font-family: 'PoppinsSemiBold';
-   font-size: 3vw;
+   font-size: 2.5vw;
    color: #CE3259;
    background: linear-gradient(to top, rgba(206 , 50, 89, .2) 0, rgba(206 , 50, 89, .1) 40%, #0A192F 100%);
    border-style: none;

@@ -7,6 +7,7 @@ import Project4Mobile from '../project_pages/Project4Mobile';
 function ProjectsMobile() {
   return (
     <div id="ProjectsMobile" className="projects-mobile">
+      <div className="space"/>
       <div className="projects-box-mobile">
          <div className="projects-title-box-mobile">
             <p className="projects-num-mobile">05</p>

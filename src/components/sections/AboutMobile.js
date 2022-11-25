@@ -5,6 +5,7 @@ import arrow from '../../images/arrow.png';
 function AboutMobile() {
   return (
     <div id="AboutMobile" className="about-mobile">
+      <div className="space"/>
       <div className="about-box-mobile">
          <div className="about-title-mobile">
             <p className="about-num-mobile">01</p>

@@ -87,7 +87,7 @@ class Coursework1Mobile extends React.Component {
                   <button className={this.state.c5 ? "coursework1-course-clicked-mobile" : "coursework1-course-mobile"} onClick={this.handleClick_c5}>SOCY100</button>
                   {this.state.c5 ? (<div className="coursework1-line-box-mobile"><div className="coursework1-line-mobile"/></div>) : (<div className="coursework1-line-box-mobile"/>)}
                </div>
-            </div>
+            </div> 
             <div className="coursework1-bottom-mobile">
                {this.state.c1 ? (<p className="coursework1-course-name-mobile">Object-Oriented Programming II</p>) : (<div/>)}
                {this.state.c1 ? (<p className="coursework1-course-desc-mobile">Introduction to use of computers to solve problems using software engineering principles. Design, build, test, and debug medium -size software systems and learn to use relevant tools. Use object-oriented methods to create effective and efficient problem solutions. Use and implement application programming interfaces (APIs).</p>) : (<div/>)}

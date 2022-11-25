@@ -41,11 +41,11 @@ class Leadership1 extends React.Component {
                <div className="job-desc-box">
                   <div className={this.props.desktop ? "job-bullet" : "job-bullet-mobile"}>
                      <img src={arrow} className="bullet"/>
-                     <p className={this.props.desktop ? "job-desc-text" : "job-desc-text-mobile"}>This year I've been managing a team of 9 students developing a volunteer dashboard to drive up engagement for an NPO partner that delivers fresh produce to underserved communities.</p>
+                     <p className={this.props.desktop ? "job-desc-text" : "job-desc-text-mobile"}>This year I've been managing a team of 9 students developing a volunteer dashboard to drive up engagement for an NPO partner.</p>
                   </div>
                   <div className={this.props.desktop ? "job-bullet" : "job-bullet-mobile"}>
                      <img src={arrow} className="bullet"/>
-                     <p className={this.props.desktop ? "job-desc-text" : "job-desc-text-mobile"}>I incorporated agile development techniques such as weekly stand-ups, bi-weekly sprints, and pair programming to aid in my team members' professional development.</p>
+                     <p className={this.props.desktop ? "job-desc-text" : "job-desc-text-mobile"}>I incorporated agile development techniques such as weekly stand-ups, bi-weekly sprints, and pair programming.</p>
                   </div>
                   <div className={this.props.desktop ? "job-bullet" : "job-bullet-mobile"}>
                      <img src={arrow} className="bullet"/>
