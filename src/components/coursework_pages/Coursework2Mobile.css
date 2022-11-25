@@ -1,0 +1,84 @@
+.coursework2-mobile {
+   width: 100%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+}
+
+.coursework2-top-mobile {
+   width: 100%;
+   height: 30%;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   gap: 1vw;
+}
+
+.coursework2-bottom-mobile {
+   width: 100%;
+   height: 70%;
+   border-top: 1px solid #CE3259;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   background: linear-gradient(to bottom, rgba(206 , 50, 89, .2) 0, rgba(206 , 50, 89, .1) 40%, #0A192F 100%);
+}
+
+.coursework2-course-mobile {
+   font-family: "PoppinsReg";
+   color: #75809B;
+   font-size: 3.7vw;
+   margin: 0;
+   background-color: #0A192F;
+   border-style: none;
+   text-align: left;
+}
+
+.coursework2-course-clicked-mobile {
+   font-family: "PoppinsReg";
+   color: #CE3259;
+   font-size: 3.7vw;
+   margin: 0;
+   background-color: #0A192F;
+   border-style: none;
+   text-align: left;
+}
+
+.coursework2-course-box-mobile {
+   height: 94%;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   margin-top: 1vh;
+   gap: 1vh;
+}
+
+.coursework2-line-box-mobile {
+   height: 7vh;
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
+}
+
+.coursework2-line-mobile {
+   height: 100%;
+   width: 50%;
+   border-left: 1px solid #CE3259;
+}
+
+.coursework2-course-name-mobile {
+   font-family: 'PoppinsSemiBold';
+   color: #CCD7F6;
+   margin-left: 2vw;
+   font-size: 4vw;
+   margin: 2vh;
+}
+
+.coursework2-course-desc-mobile {
+   font-family: 'PoppinsReg';
+   color: #75809B;
+   margin: 2vh;
+   font-size: 3vw;
+   margin-top: 0;
+}

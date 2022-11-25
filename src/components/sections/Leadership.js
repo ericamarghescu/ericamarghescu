@@ -55,9 +55,9 @@ class Leadership extends React.Component {
                      <button className={this.state.ws ? "leadership-menu-button-clicked" : "leadership-menu-button"} onClick={this.handleClick_ws}>Workshops</button>
                      <button className={this.state.pamc ? "leadership-menu-button-clicked" : "leadership-menu-button"} onClick={this.handleClick_pamc}>Palo Alto Music Connection</button>
                   </div>
-                  {this.state.h4i ? (<div className="leadership-desc"><Leadership1/></div>) : (<div className="placeholder"/>)}
-                  {this.state.ws ? (<div className="leadership-desc"><Leadership2/></div>) : (<div className="placeholder"/>)}
-                  {this.state.pamc ? (<div className="leadership-desc"><Leadership3/></div>) : (<div className="placeholder"/>)}
+                  {this.state.h4i ? (<div className="leadership-desc"><Leadership1 desktop={this.props.desktop}/></div>) : (<div className="placeholder"/>)}
+                  {this.state.ws ? (<div className="leadership-desc"><Leadership2 desktop={this.props.desktop}/></div>) : (<div className="placeholder"/>)}
+                  {this.state.pamc ? (<div className="leadership-desc"><Leadership3 desktop={this.props.desktop}/></div>) : (<div className="placeholder"/>)}
                </div>
             </div>
          </div>

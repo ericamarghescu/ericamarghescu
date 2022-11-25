@@ -6,25 +6,25 @@ class Experience2 extends React.Component {
    render() {
       return (
          <div className="experience-page">
-            <div className="job-header-box">
-               <div className="job-title-box">
-                  <p className="job-title">Software Engineering Intern</p>
-                  <p className="company-title">@ Palo Alto Networks</p>
+            <div className={this.props.desktop ? "job-header-box" : "job-header-box-mobile"}>
+               <div className={this.props.desktop ? "job-title-box" : "job-title-box-mobile"}>
+                  <p className={this.props.desktop ? "job-title" : "job-title-mobile"}>Software Engineering Intern</p>
+                  {this.props.desktop ? (<p className="company-title">@ Palo Alto Networks</p>) : (<p className="company-title-mobile">@ PAN</p>)}
                </div>
-               <p className="job-date">May 2022 - August 2022</p>
+               <p className={this.props.desktop ? "job-date" : "job-date-mobile"}>May 2022 - August 2022</p>
             </div>
             <div className="job-desc-box">
-               <div className="job-bullet">
+               <div className={this.props.desktop ? "job-bullet" : "job-bullet-mobile"}>
                   <img src={arrow} className="bullet"/>
-                  <p className="job-desc-text">This summer, I integrated with a team of full-time employees, using React to improve UI for anomaly data within Prisma Cloud.</p>
+                  <p className={this.props.desktop ? "job-desc-text" : "job-desc-text-mobile"}>This summer, I integrated with a team of full-time employees, using React to improve UI for anomaly data within Prisma Cloud.</p>
                </div>
-               <div className="job-bullet">
+               <div className={this.props.desktop ? "job-bullet" : "job-bullet-mobile"}>
                   <img src={arrow} className="bullet"/>
-                  <p className="job-desc-text">I implemented and tested a full feature on a flagship product, and my code was ultimately used in production, which was a very rewarding feeling.</p>
+                  <p className={this.props.desktop ? "job-desc-text" : "job-desc-text-mobile"}>I implemented and tested a full feature on a flagship product, and my code was ultimately used in production, which was a very rewarding feeling.</p>
                </div>
-               <div className="job-bullet">
+               <div className={this.props.desktop ? "job-bullet" : "job-bullet-mobile"}>
                   <img src={arrow} className="bullet"/>
-                  <p className="job-desc-text">During this experience, I learned to be resourceful and take initiative, first solving problems by myself and reaching out to mentors when appropriate.</p>
+                  <p className={this.props.desktop ? "job-desc-text" : "job-desc-text-mobile"}>During this experience, I learned to be resourceful and take initiative, first solving problems by myself and reaching out to mentors when appropriate.</p>
                </div>
             </div>
          </div>

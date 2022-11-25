@@ -70,10 +70,10 @@ class Experience extends React.Component {
                      <button className={this.state.mnsm ? "experience-menu-button-clicked" : "experience-menu-button"} onClick={this.handleClick_mnsm}>Mathnasium</button>
                      <button className={this.state.frlc ? "experience-menu-button-clicked" : "experience-menu-button"} onClick={this.handleClick_frlc}>Freelance</button>
                   </div>
-                  {this.state.msft ? (<div className="experience-desc"><Experience1/></div>) : (<div className="placeholder"/>)}
-                  {this.state.panw ? (<div className="experience-desc"><Experience2/></div>) : (<div className="placeholder"/>)}
-                  {this.state.mnsm ? (<div className="experience-desc"><Experience3/></div>) : (<div className="placeholder"/>)}
-                  {this.state.frlc ? (<div className="experience-desc"><Experience4/></div>) : (<div className="placeholder"/>)}
+                  {this.state.msft ? (<div className="experience-desc"><Experience1 desktop={this.props.desktop}/></div>) : (<div className="placeholder"/>)}
+                  {this.state.panw ? (<div className="experience-desc"><Experience2 desktop={this.props.desktop}/></div>) : (<div className="placeholder"/>)}
+                  {this.state.mnsm ? (<div className="experience-desc"><Experience3 desktop={this.props.desktop}/></div>) : (<div className="placeholder"/>)}
+                  {this.state.frlc ? (<div className="experience-desc"><Experience4 desktop={this.props.desktop}/></div>) : (<div className="placeholder"/>)}
                </div>
            </div>
          </div>

@@ -1,27 +1,22 @@
 svg {
+   width: 3vw;
+   height: 3vh;
    color: #75809B;
+}
+
+.svg-icon {
    width: 3vw;
    height: 3vh;
 }
 
-svg:hover {
-   color: #CE3259;
-   scale: 1.1;
-   cursor: pointer;
-}
-
-
-.socials {
-  width: 7vw;
-  height: 40vh;
-  position: fixed;
-  bottom: 0;
-  background-color: #0a192f;
+.socials-mobile {
+  width: 100%;
+  height: 32vh;
   display: flex;
   flex-direction: column;
 }
 
-.social-icons {
+.social-icons-mobile {
    width: 100%;
    height: 70%;
    display: flex;
@@ -30,14 +25,14 @@ svg:hover {
    align-items: center;
 }
 
-.social-line {
+.social-line-mobile {
    width: 100%;
-   height: 12vh;
+   height: 40vh;
    display: flex;
    flex-direction: row-reverse;
 }
 
-.line {
+.line-mobile {
    margin-top: 2vh;
    width: 50%;
    border-left: 3px solid #75809B;

@@ -63,7 +63,7 @@ function About() {
                   </div>
                   <div className="lang-box">
                      <img src={arrow} className="lang-logo"/>
-                     <p className="lang-text">Matlab</p>
+                     <p className="lang-text">MATLAB</p>
                   </div>
                   <div className="lang-box">
                      <img src={arrow} className="lang-logo"/>
