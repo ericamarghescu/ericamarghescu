@@ -1,14 +1,11 @@
-.p3-overlay {
-   position: absolute;
-   width: 36vw;
+.p3-project-img-container {
+   min-width: 60%;
    height: 35vh;
-   left: 20.2vw;
-   top: 651.8vh;
-   background-color: rgba(206, 50, 89, .3);
-}
-
-.p3-overlay:hover {
-   background-color: transparent;
+   margin-top: 3vh;
+   background: linear-gradient(to right, rgba(206 , 50, 89, .3) 0, rgba(206 , 50, 89, .3) 40%, rgba(206 , 50, 89, .3) 100%), url('../../images/project3.png');
+   background-size: 36vw, 62vh;
+   background-repeat: no-repeat;
+   background-position: 0;
 }
 
 .p3-project-desc-box {

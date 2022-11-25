@@ -6,10 +6,7 @@ import GitHubIcon from '../../icons/github';
 function Project2() {
    return (
      <div className="L-project-page">
-         <div className="L-project-img-box">
-            <img src={project2} className="L-project-img"/>
-         </div>
-         <div className="p2-L-overlay"/>
+         <div className="L-p2-project-img-container"/>
          <div className="p2-L-project-desc-box">
             <div className="L-project-title-box">
                <p className="L-project-category">Technica Hackathon Winner</p>

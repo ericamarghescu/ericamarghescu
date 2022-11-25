@@ -1,15 +1,13 @@
-.p2-L-overlay {
-   position: absolute;
-   width: 36vw;
-   height: 36vh;
-   right: 20vw;
-   top: 607vh;
-   background-color: rgba(206, 50, 89, .3);
+.L-p2-project-img-container {
+   min-width: 60%;
+   height: 35vh;
+   margin-top: 3vh;
+   background: linear-gradient(to right, rgba(206 , 50, 89, .3) 0, rgba(206 , 50, 89, .3) 40%, rgba(206 , 50, 89, .3) 100%), url('../../images/project2.png');
+   background-size: 36vw, 62vh;
+   background-repeat: no-repeat;
+   background-position: 0;
 }
 
-.p2-L-overlay:hover {
-   background-color: transparent;
-}
 
 .p2-L-project-desc-box {
    position: absolute;

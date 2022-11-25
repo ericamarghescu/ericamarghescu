@@ -1,13 +1,10 @@
 import './Project-Page-Right.css';
 import './Project3.css';
-import project3 from '../../images/project3.png';
-import GitHubIcon from '../../icons/github';
 
 function Project3() {
    return (
      <div className="project-page">
-         <img src={project3} className="project-img"/>
-         <div className="p3-overlay"/>
+         <div className="p3-project-img-container"/>
          <div className="p3-project-desc-box">
             <div className="project-title-box">
                <p className="project-category">University of Maryland</p>

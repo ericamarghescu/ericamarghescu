@@ -6,10 +6,7 @@ import GitHubIcon from '../../icons/github';
 function Project4() {
    return (
      <div className="L-project-page">
-         <div className="L-project-img-box">
-            <img src={project4} className="L-project-img"/>
-         </div>
-         <div className="p4-L-overlay"/>
+         <div className="L-p4-project-img-container"/>
          <div className="p4-L-project-desc-box">
             <div className="L-project-title-box">
                <p className="L-project-category">Personal Project</p>
