@@ -9,7 +9,7 @@ function SocialMobile() {
    return (
      <div id="SocialMobile" className="socials-mobile">
          <div className="social-icons-mobile">
-            <a href="https://github.com/ericamarghescu">
+            <a href="https://github.com/ericamarghescu" className="social-icon-mobile">
                <GitHubIcon/>
             </a>
             <a href="https://www.instagram.com/erica.m">
@@ -24,9 +24,6 @@ function SocialMobile() {
             <a href="mailto: erica.marghescu@gmail.com">
                <EmailIcon/>
             </a>
-         </div>
-         <div className="social-line-mobile">
-            <div className="line-mobile"/>
          </div>
      </div>
    );
