@@ -40,14 +40,14 @@
    font-size: 0.75vw;
    color: #75809B;
    margin: 0;
+   margin-bottom: 1vh;
 }
 
 .job-desc-box {
    width: 100%;
-   height: 28vh;
    display: flex;
    flex-direction: column;
-   justify-content: space-between;
+   gap: 2vh;
 }
 
 .job-bullet {

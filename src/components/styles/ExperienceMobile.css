@@ -7,10 +7,11 @@
 }
 
 .experience-box-mobile {
-   height: 60%;
+   height: 80%;
    width: 88vw;
    display: flex;
    flex-direction: column;
+   justify-content: center;
 }
 
 .experience-title-box-mobile {
