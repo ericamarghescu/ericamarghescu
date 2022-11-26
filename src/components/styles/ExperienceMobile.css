@@ -48,11 +48,25 @@
 .experience-menu-mobile {
    height: 5vh;
    display: flex;
+   flex-direction: column;
    margin-top: 1vh;
 }
 
+.experience-menu-line-mobile {
+   height: 3px;
+   width: 22vw;
+   margin-top: 4.7vh;
+   position: absolute;
+   background-color: #CE3259;
+}
+
+.experience-menu-buttons-mobile {
+   display: flex;
+   height: 100%;
+}
+
 .experience-menu-button-mobile {
-   width: 100%;
+   width: 22vw;
    font-family: 'PoppinsReg';
    font-size: 2.5vw;
    color: #75809B;
@@ -62,13 +76,13 @@
 }
 
 .experience-menu-button-clicked-mobile {
-   width: 100%;
+   width: 22vw;
    font-family: 'PoppinsSemiBold';
    font-size: 2.5vw;
    color: #CE3259;
    background: linear-gradient(to top, rgba(206 , 50, 89, .2) 0, rgba(206 , 50, 89, .1) 40%, #0A192F 100%);
    border-style: none;
-   border-bottom: 3px solid #CE3259;
+   border-bottom: 3px solid #75809B;
 }
 
 .experience-desc-mobile {

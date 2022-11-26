@@ -4,6 +4,7 @@ import Experience2 from '../experience_pages/Experience2';
 import Experience3 from '../experience_pages/Experience3';
 import Experience4 from '../experience_pages/Experience4';
 import React from 'react';
+import $ from 'jquery';
 
 
 class ExperienceMobile extends React.Component {
@@ -19,6 +20,10 @@ class ExperienceMobile extends React.Component {
       this.handleClick_panw = this.handleClick_panw.bind(this);
       this.handleClick_mnsm = this.handleClick_mnsm.bind(this);
       this.handleClick_frlc = this.handleClick_frlc.bind(this);
+      this.slideTransition1 = this.slideTransition1.bind(this);
+      this.slideTransition2 = this.slideTransition2.bind(this);
+      this.slideTransition3 = this.slideTransition3.bind(this);
+      this.slideTransition4 = this.slideTransition4.bind(this);
    }
 
    handleClick_msft(e) {
@@ -53,6 +58,37 @@ class ExperienceMobile extends React.Component {
          frlc: true});
    }
 
+   slideTransition1 = () => {
+      $("#experience-button1-mobile").on("click", function() {
+         $(".experience-menu-line-mobile").animate({left: '6vw'});
+      });
+   }
+
+   slideTransition2 = () => {
+      $("#experience-button2-mobile").on("click", function() {
+         $(".experience-menu-line-mobile").animate({left: '28vw'});
+      });
+   }
+
+   slideTransition3 = () => {
+      $("#experience-button3-mobile").on("click", function() {
+         $(".experience-menu-line-mobile").animate({left: '50vw'});
+      });
+   }
+
+   slideTransition4 = () => {
+      $("#experience-button4-mobile").on("click", function() {
+         $(".experience-menu-line-mobile").animate({left: '72vw'});
+      });
+   }
+
+   componentDidMount() {
+      this.slideTransition1();
+      this.slideTransition2();
+      this.slideTransition3();
+      this.slideTransition4();
+   }
+
  
    render() {
       return (
@@ -66,10 +102,13 @@ class ExperienceMobile extends React.Component {
                  </div>
               </div>
               <div className="experience-menu-mobile">
-                  <button className={this.state.msft ? "experience-menu-button-clicked-mobile" : "experience-menu-button-mobile"} onClick={this.handleClick_msft}>Microsoft</button>
-                  <button className={this.state.panw ? "experience-menu-button-clicked-mobile" : "experience-menu-button-mobile"} onClick={this.handleClick_panw}>Palo Alto Networks</button>
-                  <button className={this.state.mnsm ? "experience-menu-button-clicked-mobile" : "experience-menu-button-mobile"} onClick={this.handleClick_mnsm}>Mathnasium</button>
-                  <button className={this.state.frlc ? "experience-menu-button-clicked-mobile" : "experience-menu-button-mobile"} onClick={this.handleClick_frlc}>Freelance</button>
+                  <div className="experience-menu-buttons-mobile">
+                     <button id="experience-button1-mobile" className={this.state.msft ? "experience-menu-button-clicked-mobile" : "experience-menu-button-mobile"} onClick={this.handleClick_msft}>Microsoft</button>
+                     <button id="experience-button2-mobile" className={this.state.panw ? "experience-menu-button-clicked-mobile" : "experience-menu-button-mobile"} onClick={this.handleClick_panw}>Palo Alto Networks</button>
+                     <button id="experience-button3-mobile" className={this.state.mnsm ? "experience-menu-button-clicked-mobile" : "experience-menu-button-mobile"} onClick={this.handleClick_mnsm}>Mathnasium</button>
+                     <button id="experience-button4-mobile" className={this.state.frlc ? "experience-menu-button-clicked-mobile" : "experience-menu-button-mobile"} onClick={this.handleClick_frlc}>Freelance</button>
+                  </div>
+                  <span className="experience-menu-line-mobile"/>
               </div>
                {this.state.msft ? (<div className="experience-desc-mobile"><Experience1 desktop={this.props.desktop}/></div>) : (<div className="placeholder"/>)}
                {this.state.panw ? (<div className="experience-desc-mobile"><Experience2 desktop={this.props.desktop}/></div>) : (<div className="placeholder"/>)}
