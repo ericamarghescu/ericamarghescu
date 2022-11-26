@@ -84,8 +84,9 @@
    border-top: none;
    border-bottom: none;
    border-left: 3px solid #75809B;
-   padding-top: 2vh;
-   padding-bottom: 2vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
 .leadership-menu-button-clicked {
