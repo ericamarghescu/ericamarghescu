@@ -81,7 +81,9 @@
    font-size: .9vw;
    color: #CE3259;
    background: linear-gradient(to right, rgba(206 , 50, 89, .2) 0, rgba(206 , 50, 89, .1) 40%, #0A192F 100%);
-   border-style: none;
+   border-right-style: none;
+   border-top-style: none;
+   border-bottom-style: none;
    border-left: 3px solid #CE3259;
    padding-top: 2vh;
    padding-bottom: 2vh;

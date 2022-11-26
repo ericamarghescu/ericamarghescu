@@ -59,7 +59,9 @@
    font-size: 1vw;
    color: #75809B;
    background-color: #0a192f;
-   border-style: none;
+   border-right-style: none;
+   border-left-style: none;
+   border-bottom-style: none;
    border-top: 3px solid #75809B;
 }
 
