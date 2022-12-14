@@ -12,7 +12,7 @@ class Navbar extends React.Component {
          showMenu: false
       };
       this.openMenu = this.openMenu.bind(this);
-      this.closeMenu = this.closeMenu.bind(this);
+      this.closeMenu = this.closeMenu.bind(this); 
    }
 
    openMenu(e) {

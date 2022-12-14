@@ -83,7 +83,7 @@ class Experience extends React.Component {
 
    componentDidMount() {
       this.slideTransition1();
-      this.slideTransition2();
+      this.slideTransition2(); 
       this.slideTransition3();
       this.slideTransition4();
    }
