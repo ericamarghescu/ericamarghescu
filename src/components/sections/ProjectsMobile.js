@@ -3,6 +3,7 @@ import Project1Mobile from '../project_pages/Project1Mobile';
 import Project2Mobile from '../project_pages/Project2Mobile';
 import Project3Mobile from '../project_pages/Project3Mobile';
 import Project4Mobile from '../project_pages/Project4Mobile';
+import Project5Mobile from '../project_pages/Project5Mobile';
 
 function ProjectsMobile() {
   return (
@@ -20,6 +21,7 @@ function ProjectsMobile() {
          <Project2Mobile/>
          <Project3Mobile/>
          <Project4Mobile/>
+         <Project5Mobile/>
       </div>
     </div>
   );

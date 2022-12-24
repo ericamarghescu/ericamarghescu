@@ -26,7 +26,7 @@ class Leadership1 extends React.Component {
                   </div>
                   <div className={this.props.desktop ? "job-bullet" : "job-bullet-mobile"}>
                      <img src={arrow} className="bullet"/>
-                     <p className={this.props.desktop ? "job-desc-text" : "job-desc-text-mobile"}>I pioneered the position and sourced our first ever corporate partners, bringing in over $1000 for the organization!</p>
+                     <p className={this.props.desktop ? "job-desc-text" : "job-desc-text-mobile"}>I pioneered the position and sourced our first ever corporate partners, bringing in over $3000 for the organization!</p>
                   </div>
                </div>
             </div>

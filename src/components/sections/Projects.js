@@ -3,6 +3,7 @@ import Project1 from '../project_pages/Project1';
 import Project2 from '../project_pages/Project2';
 import Project3 from '../project_pages/Project3';
 import Project4 from '../project_pages/Project4';
+import Project5 from '../project_pages/Project5';
 
 function Projects() {
   return (
@@ -17,8 +18,9 @@ function Projects() {
          </div>
          <Project1/>
          <Project2/>
-         <Project3/>
+         <Project3/> 
          <Project4/>
+         <Project5/>
       </div>
     </div>
   );
